@@ -1,5 +1,4 @@
-import { colors } from "../utils/colors";
-import { elements } from "../utils/elements";
+import { colors, elements } from "../utils/index";
 
 const { firstCreditCardBackgroundColor, secondCreditCardBackgroundColor, creditCardLogo } = elements;
 
