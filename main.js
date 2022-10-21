@@ -1,8 +1,7 @@
 import "./src/styles/index.css";
-import { setCardType, setAllInputMask } from './public/scripts/index';
-import { elementsMasked } from './public/utils/index';
+import { setCardType, setAllElementsEvents } from './public/scripts/index';
 
 setCardType("default");
-setAllInputMask(elementsMasked);
+setAllElementsEvents();
 
 globalThis.setCardType = setCardType;

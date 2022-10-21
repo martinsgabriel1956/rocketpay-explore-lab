@@ -1,7 +1,9 @@
 import { createElementMasked } from '../utils/index';
 
 export function setAllInputMask(allElementsMaskedArr) {
-  allElementsMaskedArr.map(({ element, mask }) => {
+  const allInputMask = allElementsMaskedArr.map(({ element, mask }) => {
     return createElementMasked(element, mask);
   })
+
+  return { allInputMask }
 }

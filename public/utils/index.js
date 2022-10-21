@@ -3,3 +3,4 @@ export * from "./createElementMasked";
 export * from "./elements";
 export * from "./elementsMasked";
 export * from "./elementsPatternMask";
+export * from "./setChangeFieldText";
